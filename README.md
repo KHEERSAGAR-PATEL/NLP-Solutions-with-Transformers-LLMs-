@@ -5,7 +5,7 @@
 
 ## 🧠 Project Highlights
 
-### 🧾 1. Emotion Classification with Custom Transformer ([GoEmotions](https://github.com/google-research/goemotions))
+### 🧾 1. Emotion Classification with Custom Vanilla Transformer 
 - Developed a **multi-label classifier** to predict nuanced emotions across 28 categories.
 - Achieved **F1-score: 0.23** and **AUC: 0.85** using a **custom Transformer with sigmoid activation**.
 - Implemented **per-label thresholding** and optimized **multi-label loss functions**.
