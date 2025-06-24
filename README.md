@@ -84,7 +84,7 @@
 
 **Kheer Sagar Patel**  
 *M.Tech in CSE (AI & ML), PDPM IIITDM Jabalpur*  
-*PhD Offer From IIT Bhilai in AI & ML *
+*PhD Offer From IIT Bhilai in AI & ML*
 
 ---
 
