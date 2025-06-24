@@ -20,11 +20,17 @@
 ---
 
 ### 📄 3. GenRAG: Retrieval-Augmented Generation for Document QA
-- Built a modular **RAG pipeline** to transform documents into **queryable knowledge bases**.
-- Fine-tuned LLMs for QA generation with **BLEU Score: 29**.
-- Pipeline includes:
-  - Dynamic **query rewriting**, **chunking**, and **semantic search**
-  - Integration with **FAISS**, **LangChain**, and **LLM prompt chaining**
+- Built a modular RAG pipeline to convert documents into a queryable knowledge base, enabling accurate, context-aware QA using local LLMs.
+
+-Integrated semantic + keyword retrieval via FAISS and BM25
+
+-Used Gemma-7B-IT for instruction-tuned generation with real context
+
+-Achieved BERTScore F1: 0.8029
+
+-Includes full pipeline: query rewriting, chunking, embedding, prompt augmentation, and LLM response generation
+
+-Runs locally on GPU (e.g., RTX 4090) without LangChain or black-box tools.
 
 ---
 
@@ -34,7 +40,7 @@
 |-----------------------------|---------------|---------|
 | Emotion Classification      | F1 / AUC      | 0.23 / 0.85 |
 | Twitter Sentiment Analysis  | F1-score      | 81.0%   |
-| RAG Document QA             | BLEU Score    | 29      |
+| RAG Document QA             | BERTScore F1    | 0.8029      |
 
 ---
 
@@ -42,7 +48,7 @@
 
 - **Transformers**: BERT, Custom Transformer Architectures  
 - **Frameworks**: TensorFlow, PyTorch, HuggingFace Transformers  
-- **RAG Stack**: LangChain, FAISS, OpenAI API  
+- **RAG Stack**: FAISS, BM25, SentenceTransformers, Gemma-7B-IT (local LLM)
 - **Utilities**: NLTK, Scikit-learn, Matplotlib, Weights & Biases  
 
 ---
@@ -53,7 +59,7 @@
 📦 Applied-NLP-Systems
 ├── NLP_Go_emotions_text_classification_custom_transformer.ipynb
 ├── BERT-model-for-Twitter-sentiment-analysis.ipynb
-└── GenRAG.ipynb
+└── LLM-Powered Retrieval-Augmented Generation (RAG) for Contextual Domain Q&A.ipynb
 ```
 
 ---
@@ -78,6 +84,7 @@
 
 **Kheer Sagar Patel**  
 *M.Tech in CSE (AI & ML), PDPM IIITDM Jabalpur*  
+*PhD Offer From IIT Bhilai in AI & ML *
 
 ---
 
